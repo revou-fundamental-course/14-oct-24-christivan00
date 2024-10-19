@@ -1,1 +1,35 @@
-/*ini css
+/*ini css*/
+
+
+body {
+
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8p;
+    
+}
+
+nav {
+    display: flex;
+}
+nav>a{
+    border: 1px solid;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    
+}
+
+.poto-banner {
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+  
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8KoQIVkZraXPBZuR4revQ37FQ4YPBibTClkNYk5PRyM6QKiyf');
+}
