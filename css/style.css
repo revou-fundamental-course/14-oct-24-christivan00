@@ -4,21 +4,29 @@
 body {
     
     font-family: 'Poppins', sans-serif; 
+    background-image: url("https://image.cdn.centcloud.seaart.me/2023-09-21/17773110904288261/7b942a45f688b7ae9275f85f10bd20fd8a6746d5_high.webp");
     background-color: #ffffff; 
-    color: #000000; 
-    line-height: 1;
+    color: #ffffff; 
+    background-size: cover;
    
+   
+section{
+   margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.297);
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-bottom: 10px;
 }
-
 .main-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 30px;
-    background-color: #ffffff;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    padding: 5px 40px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.585);
+    position:sticky;
+    top: 0px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     border-bottom: 1px solid #333;
 }
@@ -28,57 +36,56 @@ body {
         width: 50px;
         background-size: cover;
         border-radius: 50%;
-        border: 2px solid #555;
-        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJd3Fw9Qbwm05nspPB4kJoGI5Utq7BK8PDbA&s);
+        border: 0px soid ;
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJd3Fw9Qbwm05nspPB4kJoGI5Utq7BK8PDbA&s");
 
 }
 
 .colorful {
-    background: linear-gradient(90deg, #0edbff, #ff09e2);
+    font-size: 40px;
+    padding-top: 10px;
+    background: linear-gradient(90deg, #00d9ff, #ff00e1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+    text-align: center;
+    
+   
 }
+
 nav {
     display: flex;
 }
-
-
-   
-
-
 
 nav>a{
    
     padding: 8px 12px;
     text-decoration: none;
     border-radius: 8px;
-    color: #000000;
-    margin: 0 2px;
-    
-}
-
-.poto-banner {
-    height: 500px;
-    width: 100%;
-    background-size: cover;
-    background-image: url("https://cdn1-production-images-kly.akamaized.net/PZpJMcN7SMXwf4jyF4D_AXoDW3g=/1200x1200/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3109922/original/087100300_1587612050-grass-1326759_1920.jpg");
-
+    color: #ffffff;
+    margin: 0 10px;
 }
 
 nav>a:hover {
-
     background: linear-gradient(90deg, #0edbff, #ff09e2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
-    
     transform: translateY(3px);
     transition: transform 0.5s ease;
-    
+}
+
 
 }
+.poto-banner {
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+
+}
+
+
 
 footer {
     text-align: center; 
