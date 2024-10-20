@@ -4,60 +4,49 @@
 body {
     
     font-family: 'Poppins', sans-serif; 
-    background-image: url("https://image.cdn.centcloud.seaart.me/2023-09-21/17773110904288261/7b942a45f688b7ae9275f85f10bd20fd8a6746d5_high.webp");
-    background-color: #ffffff; 
-    color: #ffffff; 
-    background-size: cover;
-   
+    background-image: url("https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg?w=740&t=st=1729429921~exp=1729430521~hmac=8c96f048be3f7e2ed73408bd8ab69398ef6c875ffa8da28208f11cdf8afc359d");
+    background-size:cover;
+}
    
 section{
    margin-top: 50px;
-    background-color: rgba(0, 0, 0, 0.297);
+    background-color: rgba(255, 255, 255, 0.463);
     padding: 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     border-radius: 10px;
     padding-bottom: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.192);
+}
+section>header{
+    font-size: 20px;
+    margin: 50px;
+
+}
+article>p{
+    font-size: 20px;
+    margin-right: 00px;
+    background:linear-gradient(80deg, rgba(0, 213, 255, 0.298) ,rgba(128, 0, 255, 0.397)) ;
+    border-radius: 0 50px 50px;
+    padding: 20px;
 }
 .main-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px 40px;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px ;
     background-color: rgba(0, 0, 0, 0.585);
-    position:sticky;
     top: 0px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    border-bottom: 1px solid #333;
+    position:sticky;
 }
 
-.main-header div {
-        height: 50px;
-        width: 50px;
-        background-size: cover;
-        border-radius: 50%;
-        border: 0px soid ;
-        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJd3Fw9Qbwm05nspPB4kJoGI5Utq7BK8PDbA&s");
-
-}
-
-.colorful {
-    font-size: 40px;
-    padding-top: 10px;
-    background: linear-gradient(90deg, #00d9ff, #ff00e1);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    text-align: center;
-    
    
-}
-
 nav {
+    border-radius: px;
     display: flex;
+    position:sticky;
 }
-
 nav>a{
    
     padding: 8px 12px;
@@ -65,7 +54,28 @@ nav>a{
     border-radius: 8px;
     color: #ffffff;
     margin: 0 10px;
+    font-size: 14px;
 }
+
+
+.main-header div {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    border-radius: 50% ;
+    border: 0px soid ;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJd3Fw9Qbwm05nspPB4kJoGI5Utq7BK8PDbA&s");
+
+}
+
+.colorful {
+    background: linear-gradient(90deg, #00d9ff, #cc00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+
+
+
 
 nav>a:hover {
     background: linear-gradient(90deg, #0edbff, #ff09e2);
@@ -77,7 +87,6 @@ nav>a:hover {
 }
 
 
-}
 .poto-banner {
     height: 500px;
     width: 100%;
@@ -87,9 +96,11 @@ nav>a:hover {
 
 
 
-footer {
-    text-align: center; 
-    padding: 10px 0; 
-    background-color: #333; 
-    color: white; 
-}
+.copyright {
+    position: relative;
+            background-color: #333; 
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            border-radius:30px 30px 0  0;
+        }
