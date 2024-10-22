@@ -25,9 +25,15 @@
             <div id="div-home">
                 <div id="home-teks">
                     <header>
-                        <h1>Hi <span class="color-teks">nama</span>, Welcome to my website<br/>
-                            Saya <span class="color-teks">CHRISTIVAN</span>, Mahasiswa Teknik Informatika
+                        <h1>Hi <span id="user-name" class="color-teks">kamu</span> Welcome to my website<br/>
+                            saya <span class="color-teks">CHRISTIVAN</span>, Mahasiswa Teknik Informatika 
                         </h1>
+                        <div class="form-container">
+                            <input type="text" id="name-input" placeholder="Masukkan nama kamu">
+                            <button onclick="submitName()">Ganti Nama</button>
+                        </div>
+                        <p id="error-message" class="error-message"></p>
+                        
                     </header>
                     <article id="article-p1">
                         <p>Saya adalah seorang mahasiswa yang bercita-cita menjadi seorang software engineer.<br/>
