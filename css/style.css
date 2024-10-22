@@ -9,7 +9,7 @@ body {
 }
    
 section{
-    margin-top: 50px;
+    margin-top: 0px;
     background-color: rgba(255, 255, 255, 0.463);
     padding: 20px;
     color: rgb(0, 0, 0);
@@ -29,16 +29,26 @@ article>p{
     border-radius: 0 50px 50px;
     padding: 20px;
 }
+#home-img img {
+    width: 500px;
+    height: auto;
+    max-width: 100%;
+}
+.home-img{
+    margin-left: 300pc;
+
+
+}
 .main-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 40px;
-    border-radius: 0 0 10px 10px ;
+    padding: 5px 30px;
+    border-radius: 10px 10px 10px 10px ;
     background-color: rgba(0, 0, 0, 0.585);
     top: 0px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    position:sticky;
+   
 }
 
 #art-profil {
@@ -59,11 +69,7 @@ article>p{
 
 
    
-nav {
-    border-radius: px;
-    display: flex;
-    position:sticky;
-}
+
 nav>a{
    
     padding: 8px 12px;
@@ -89,9 +95,11 @@ nav>a{
     background: linear-gradient(90deg, #00d9ff, #cc00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;   
+} 
+
+.article-p1 {
+    margin-right: 20pc;
 }
-
-
 
 
 nav>a:hover {
