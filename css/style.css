@@ -85,7 +85,7 @@ nav>a{
 
 }
 
-.colorful {
+.color-teks {
     background: linear-gradient(90deg, #00d9ff, #cc00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;   
