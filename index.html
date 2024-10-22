@@ -3,81 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"  href="css\style.css">
-    <title>christivan web</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Christivan's Web</title>
 </head>
-<body >
-    <header class="main-header">
-        <!--logo-->
+<body>
+    <header id="main-header">
+        <!-- Logo -->
         <div></div>
-        <!--navigasi-->
-        <nav  class="main-nav">
-
+        <!-- Navigasi -->
+        <nav class="menu">
             <a href="#section-home">HOME</a>
             <a href="#section-profile">PROFILE</a>
-            <a href="#section-portofolo">PORTOFOLIO</a>
-            <a href="#-section-message-us">MESSAGE US</a>
+            <a href="#section-portofolio">PORTOFOLIO</a>
+            <a href="#section-message-us">MESSAGE US</a>
         </nav>
-
-
     </header>
 
-
     <main>
-        <!--bagian HOME-->
-        <section id="section-home" ">
-
-            <header>
-                 <h2>Hi <spam class="color-teks">nama</spam> Welcome to my website<br/>
-                saya <spam class="color-teks">CHRISTIVAN</spam>, Mahasiswa Teknik Informatika </h2>
-            </header>
-            <article>
-                <p class="article-p1">Saya adalah seorang mahasiswa yang bercita-cita menjadi seorang software engineer.<br/>
-                    Saya senang belajar dan menjelajahi inovasi terbaru dalam dunia teknologi.<br/>
-                    Website ini adalah platform untuk menunjukkan karya-karya,hobi dan berbagi pengetahuan dengan orang lain.</p>
-               
-            </article>               
-            <div id="home-img"><img src="home.png" width="30"</div>
-        
-    
+        <!-- Bagian HOME -->
+        <section id="section-home">
+            <div id="div-home">
+                <div id="home-teks">
+                    <header>
+                        <h1>Hi <span class="color-teks">nama</span>, Welcome to my website<br/>
+                            Saya <span class="color-teks">CHRISTIVAN</span>, Mahasiswa Teknik Informatika
+                        </h1>
+                    </header>
+                    <article id="article-p1">
+                        <p>Saya adalah seorang mahasiswa yang bercita-cita menjadi seorang software engineer.<br/>
+                            Saya senang belajar dan menjelajahi inovasi terbaru dalam dunia teknologi.<br/>
+                            Website ini adalah platform untuk menunjukkan karya-karya, hobi, dan berbagi pengetahuan dengan orang lain.</p>
+                    </article> 
+                </div>         
+                <div id="home-img"><img src="home.png" width="500" alt="Home Image"></div>
+            </div>
         </section>
         <br/> 
 
-        <!--bagian PROFILE-->
+        <!-- Bagian PROFILE -->
         <section>
-            <header id="section-profile">
-            <h1  class="color-teks" >TENTANG SAYA</h1>
-            </header>
-            <div id="art-profil">
-                <img src="me.jpeg" width="300px">
-                <div class="teks-profil">
-                     <h1>NAMA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp; Christivan Budi Hutama <br/>
-                    PROFESI :&nbsp; Mahasiswa dan Calon Software Engineern</h1>
+            <div>
+                <header id="section-profile">
+                    <h1 class="color-teks">TENTANG SAYA</h1>
+                </header>
+                <div id="art-profil">
+                    <img src="me.jpeg" width="300px" alt="My Image">
+                    <div class="teks-profil">
+                        <p>Perkenalkan, saya Christivan, seorang mahasiswa Teknik Informatika yang tertarik mendalami dunia Software Engineering dan UI/UX Design.
+                            Saya berfokus pada bagaimana menciptakan solusi digital yang tidak hanya fungsional, tetapi juga memberikan pengalaman pengguna yang optimal.
+                        </p>
+                        <p>Dengan latar belakang di bidang Teknik Informatika, saya telah mempelajari berbagai teknologi pengembangan perangkat lunak serta prinsip desain antarmuka yang efektif.
+                            Pengalaman saya dalam mengerjakan proyek pengembangan aplikasi, baik dari sisi backend maupun frontend, telah memberikan saya pemahaman mendalam tentang proses pengembangan produk digital.
+                        </p>
+                        <p>
+                            Nilai utama yang saya tawarkan adalah kemampuan untuk menyatukan dua aspek penting dalam pengembangan teknologi:
+                            ketelitian teknis dari seorang Software Engineer dan kreativitas desain dari seorang UI/UX Designer.
+                            Kombinasi ini memungkinkan saya untuk menciptakan solusi yang tidak hanya kuat dari segi kinerja, tetapi juga intuitif dan menyenangkan bagi pengguna.
+                        </p>
+                        <p>Jika kamu tertarik untuk bekerja sama atau memiliki pertanyaan, jangan ragu untuk menghubungi saya.</p>
+                    </div>
                 </div>
-            </div>
+                <div class="teks-hobi">
+                    <p>Selain fokus pada studi dan pengembangan perangkat lunak, saya memiliki beberapa hobi yang saya jalani dengan serius. Berikut adalah beberapa di antaranya:</p>
+                    <ol> 
+                        <li>Bermain Musik: Saya bermain gitar dan sering terlibat dalam pertunjukan kecil dengan teman-teman.</li>
+                        <li>Bersepeda: Saya suka menjelajahi rute baru di sekitar kota, yang juga membantu saya menjaga kebugaran.</li>
+                        <li>Membaca: Saya menikmati membaca buku-buku teknologi dan fiksi ilmiah, yang memberi saya perspektif baru dan inspirasi dalam pekerjaan saya.</li>
+                    </ol>
+                </div>
+            </div>  
         </section>
-        <br>
-        <!--bagian PORTOFOLIO-->
+        <br/>
+
+        <!-- Bagian PORTOFOLIO -->
         <section>
-            <header id="section-portofolo">
-                <h1  class="color-teks">PORTOFOLIO</h1>
+            <header id="section-portofolio">
+                <h1 class="color-teks">PORTOFOLIO</h1>
             </header>
         </section>
-        <br>
-        <!--bagian MESSAGE US-->
+        <br/>
+
+        <!-- Bagian MESSAGE US -->
         <section>
-            <header id="-section-message-us">
-                <h1  class="color-teks">Message US</h1>
+            <header id="section-message-us">
+                <h1 class="color-teks">MESSAGE US</h1>
             </header>
-          
         </section>
         <hr/>
-
     </main>
-<!--copyright-->
-    <footer  class="copyright">
-         <p>&copy; 2024 My Website. All rights reserved.</p>
+
+    <!-- Copyright -->
+    <footer class="copyright">
+        <p>&copy; 2024 Christivan | LinkedIn | GitHub</p>
     </footer>
-    <script src="js\script.js"></script>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

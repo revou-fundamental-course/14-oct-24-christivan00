@@ -1,54 +1,98 @@
-/*ini css*/
-
+/* ini css */
 
 body {
-    
     font-family: 'Poppins', sans-serif; 
     background-image: url("https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg?w=740&t=st=1729429921~exp=1729430521~hmac=8c96f048be3f7e2ed73408bd8ab69398ef6c875ffa8da28208f11cdf8afc359d");
-    background-size:cover;
+    background-size: cover;
+    background-color: #000000;
+    color: rgb(0, 0, 0);
 }
-   
-section{
+
+section {
     margin-top: 0px;
-    background-color: rgba(255, 255, 255, 0.463);
-    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.677);
+    padding: 30px;
     color: rgb(0, 0, 0);
     border-radius: 10px;
-    padding-bottom: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.192);
 }
-section>header{
-    font-size: 20px;
-    margin: 50px;
 
-}
-article>p{
-    font-size: 20px;
-    margin-right: 00px;
-    background:linear-gradient(80deg, rgba(0, 213, 255, 0.298) ,rgba(128, 0, 255, 0.397)) ;
-    border-radius: 0 50px 50px;
-    padding: 20px;
-}
-#home-img img {
-    width: 500px;
-    height: auto;
-    max-width: 100%;
-}
-.home-img{
-    margin-left: 300pc;
-
-
-}
-.main-header{
+#main-header {
+    top: 0px;
+    position: sticky;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 30px;
-    border-radius: 10px 10px 10px 10px ;
+    padding: 2px 30px;
+    border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.585);
-    top: 0px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-   
+    
+}
+
+#main-header div {
+    border: 1px solid;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    border-radius: 50%;
+    border: 0px solid; 
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJd3Fw9Qbwm05nspPB4kJoGI5Utq7BK8PDbA&s");
+
+}
+nav > a {
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #ffffff;
+    margin: 0 5px;
+    font-size: 12px;
+    transition: transform 0.3s ease-in-out;
+    border: 1px solid;
+
+}
+
+nav > a:hover {
+    background: linear-gradient(90deg, #0edbff, #ff09e2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translateY(-3px) scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    
+}
+@media only screen and (max-width: 600px) {
+    #main-header { 
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+#div-home {
+    display: flex;
+}
+
+#home-teks {
+    font-size: 40px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+#home-img {
+    margin-left: 50px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+article > p {
+    font-size: 20px;
+    margin-right: 0;
+    background: linear-gradient(80deg, rgba(61, 223, 255, 0.298), rgba(134, 58, 209, 0.397));
+    border-radius: 0 20px 20px;
+    padding: 30px;
 }
 
 #art-profil {
@@ -56,76 +100,43 @@ article>p{
     align-items: center;
     gap: 40px;
 }
+
 #art-profil img {
     border-radius: 20px;
     width: 300px;
-    height: auto; box-shadow:0 4px 6px  #0000005f;
-
-}
-.teks-profil h1 {
-    font-size: 17px;
-    line-height: 1.5;
+    height: auto; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Perbaiki transparansi */
 }
 
-
-   
-
-nav>a{
-   
-    padding: 8px 12px;
-    text-decoration: none;
-    border-radius: 8px;
-    color: #ffffff;
-    margin: 0 10px;
-    font-size: 14px;
+.teks-profil > p {
+    font-size: 20px;
+    margin-left: 50px;
+    text-align: center;
+    background: linear-gradient(80deg, rgba(205, 205, 205, 0.298), rgba(124, 124, 124, 0.397));
+    border-radius: 10px;
+    padding: 20px;
 }
 
-
-.main-header div {
-    height: 50px;
-    width: 50px;
-    background-size: cover;
-    border-radius: 50% ;
-    border: 0px soid ;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJd3Fw9Qbwm05nspPB4kJoGI5Utq7BK8PDbA&s");
-
+.teks-hobi {
+    font-size: 20px;
+    background: linear-gradient(80deg, rgba(205, 205, 205, 0.298), rgba(124, 124, 124, 0.397));
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .color-teks {
     background: linear-gradient(90deg, #00d9ff, #cc00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;   
-} 
-
-.article-p1 {
-    margin-right: 20pc;
-}
-
-
-nav>a:hover {
-    background: linear-gradient(90deg, #0edbff, #ff09e2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-fill-color: transparent;
-    transform: translateY(3px);
-    transition: transform 0.5s ease;
-}
-
-
-.poto-banner {
-    height: 500px;
-    width: 100%;
-    background-size: cover;
-
-}
+}    
 
 
 
 .copyright {
     position: relative;
-            background-color: #333; 
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-            border-radius:30px 30px 0  0;
-        }
+    background-color: #333; 
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 30px 30px 0 0;
+}
