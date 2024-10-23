@@ -14,21 +14,31 @@ document.getElementById('messageForm').addEventListener('submit', function(event
     `;
 });
 
+ function masukkanNama() {
+            var nama = prompt("Silakan masukkan nama Anda:");
+            if (nama != null && nama.trim() !== "") {
+                // Jika nama valid
+                document.getElementById("selamatDatang").innerHTML =nama ;
+            } else {
+                // Jika tidak memasukkan
+                alert("Nama tidak boleh kosong. Silakan masukkan nama Anda.");
+                location.reload();
+            }
+        }
 
 let indexSlideA = 0;
 let indexSlideB = 0;
 
-// Fungsi untuk mengganti slide untuk kelas "photo-b"
+//  untuk mengganti slide untuk kelas "photo-b"
 function nextSlideB(n) {
     showSlideB(indexSlideB += n);
 }
 
-// Fungsi untuk mengganti slide untuk kelas "photo-a"
+//  untuk mengganti slide untuk kelas "photo-a"
 function nextSlideA(n) {
     showSlideA(indexSlideA += n);
 }
 
-// Fungsi untuk menampilkan gambar slide untuk kelas "photo-b"
 function showSlideB(n) {
     let listimgB = document.getElementsByClassName('photo-b');
 
