@@ -149,41 +149,46 @@ button:hover {
 #art-profil {
     display: flex;
     align-items: center;
+    padding: 50px;
+
+
 }
 
 #art-profil img {
-    border-radius: 20px;
-    width: 300px;
-    height: auto; 
+    border-radius: 20px;    
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.459);
-    width: 100%;
-    max-width: 300px;
-    height: auto; 
+    width: 100;
+    max-width: 200px;
 }
 
-.teks-profil > p {
+.teks-profil h2 {
     font-size: 20px;
-    margin-left: 50px;
-    text-align: center;
+    margin-left: 40px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.teks-profil-isi {
+    font-size: 20px;
+    margin-left: 40px;
     background: linear-gradient(80deg, rgba(205, 205, 205, 0.298), rgba(124, 124, 124, 0.397));
     border-radius: 10px;
     padding: 20px;
 }
 
-.teks-hobi {
+.teks-profil h1 {
     font-size: 20px;
+    margin-left: 40px;
     background: linear-gradient(80deg, rgba(205, 205, 205, 0.298), rgba(124, 124, 124, 0.397));
     border-radius: 10px;
     padding: 20px;
 }
+
 
 .color-teks {
     background: linear-gradient(90deg, #00d9ff, #cc00ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;   
 }    
-
-
 
 .copyright {
     position: relative;
