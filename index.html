@@ -9,7 +9,13 @@
 <body>
     <header id="main-header">
         <!-- Logo -->
-        <div></div>
+        <div > <!-- berisi img di css -->
+             <h1>
+               myPortofolio
+            </h1>
+        </div>
+           
+        
         <!-- Navigasi -->
         <nav class="menu">
             <a href="#section-home">HOME</a>
@@ -25,15 +31,10 @@
             <div id="div-home">
                 <div id="home-teks">
                     <header>
-                        <h1>Hi <span id="user-name" class="color-teks">kamu</span> Welcome to my website<br/>
+                        <h1>Hi Welcome to my website<br/>
                             saya <span class="color-teks">CHRISTIVAN</span>, Mahasiswa Teknik Informatika 
                         </h1>
-                        <div class="form-container">
-                            <input type="text" id="name-input" placeholder="Masukkan nama kamu">
-                            <button onclick="submitName()">Ganti Nama</button>
-                        </div>
-                        <p id="error-message" class="error-message"></p>
-                        
+                          
                     </header>
                     <article id="article-p1">
                         <p>Saya adalah seorang mahasiswa yang bercita-cita menjadi seorang software engineer.<br/>
@@ -43,6 +44,7 @@
                 </div>         
                 <div id="home-img"><img src="home.png" width="500" alt="Home Image"></div>
             </div>
+            
         </section>
         <br/> 
 
@@ -50,22 +52,22 @@
         <section>
             <div>
                 <header id="section-profile">
-                    <h1 class="color-teks">TENTANG SAYA</h1>
+                    <h1 class="color-teks-u">TENTANG SAYA</h1>
                 </header>
                 <div id="art-profil">
-                    <img src="me.jpeg" width="300px" alt="My Image">
-                    <div class="teks-profil">
-                    <h1>
-                        <table border="0">
-                           <tr>
+                <div id="profile-kiri">
+                    <a href=""></a>
+                    <img src="https://www.pngplay.com/wp-content/uploads/12/User-Avatar-Profile-PNG-Free-File-Download.png" width="300px" alt="My Image">
+                    <table>
+                        <tr>
                             <td>Nama</td>
                             <td>:</td>
                             <td>Christivan</td>
                            </tr>
                            <tr>
-                            <td>Lokasi</td>
+                            <td>bidang</td>
                             <td>:</td>
-                            <td>Banyuwangi</td>
+                            <td>SOftware engineer dan UI/UX design</td>
                            </tr>
                            <tr>
                             <td>instagram</td>
@@ -77,11 +79,9 @@
                             <td>:</td>
                             <td>christivan00</td>
                            </tr>
-                        </table>
-                    </h1>
-                    </div>
-                </div>
-                <div class="teks-profil-isi">
+                    </table>
+                </div>    
+                     <div class="teks-profil-isi">
                         <p>Perkenalkan, saya Christivan, seorang mahasiswa Teknik Informatika yang tertarik mendalami dunia Software Engineering dan UI/UX Design.
                             Saya berfokus pada bagaimana menciptakan solusi digital yang tidak hanya fungsional, tetapi juga memberikan pengalaman pengguna yang optimal.
                         </p>
@@ -104,6 +104,8 @@
                     </ol>
                      <p>Jika kamu tertarik untuk bekerja sama atau memiliki pertanyaan, jangan ragu untuk menghubungi saya. </p>
                 </div>
+                </div>
+               
             </div>  
         </section>
         <br/>
@@ -111,8 +113,80 @@
         <!-- Bagian PORTOFOLIO -->
         <section>
             <header id="section-portofolio">
-                <h1 class="color-teks">PORTOFOLIO</h1>
+                <h1 class="color-teks-u">PORTOFOLIO</h1>
             </header>
+            <div id="proyek1">
+                <h1>Sistem Pemasaran Toko Music</h1>
+
+                <div>
+                    <div>
+                        <img src="https://prod-swara.storage.googleapis.com/wp-content/uploads/2018/02/19224148/toko-alat-musik.jpg" alt="Deskripsi Gambar 1" class="photo-b photo-1">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRqa9F6424BtdOeChmiE5sivTANPpPIvjJGA&s" alt="Deskripsi Gambar 1" class="photo-b photo-2">
+                        <img src="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1603764130/agvukcssnxinucanu8b4.jpg" alt="Deskripsi Gambar 1" class="photo-b photo-3">
+                       
+                    </div>
+            
+                    <article>
+                        Aplikasi pemesanan alat musik secara online yang dibangun menggunakan React untuk frontend dan Node.js untuk backend.
+                         Sistem ini memungkinkan pengguna untuk melihat, memesan, dan membayar berbagai alat musik dan aksesoris.
+                         Data disimpan di MongoDB untuk kemudahan pengelolaan inventaris.
+                    </article>
+                    <br>
+                    <article>
+                        Peran: Full Stack Developer<br/>
+                        Tech Stack: React, Node.js, MongoDB, Express<br/>
+                        Pencapaian: Mengimplementasikan sistem pemesanan yang responsif,
+                         mengurangi kesalahan manual dalam pemesanan hingga 20%.
+
+                    </article>
+                </div>
+
+            </div>
+            <div id="proyek2">
+                <h1> Desain Aplikasi Hidroponik</h1>
+                <div>
+                    <div>
+                        <img src="https://rolasnews.com/wp-content/uploads/2021/02/048-Desain-HIRARKI.jpg" alt="Deskripsi Gambar 4" class="photo-a photo-1">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Xd1buO8xvqhXFHFtedRqGIhQPdQhTiXw5w&s" alt="Deskripsi Gambar 5" class="photo-a photo-2">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyn4950ObG4p33e9rA7yPRF34PH-a388eKfA&s" alt="Deskripsi Gambar 6" class="photo-a photo-3">
+                       
+                    </div>
+
+                    <article>
+                        Merancang antarmuka pengguna untuk aplikasi edukasi hidroponik yang memberikan panduan kepada pengguna tentang cara menanam tanaman menggunakan metode hidroponik.
+                         Menggunakan prinsip desain yang minimalis dan mudah digunakan, aplikasi ini bertujuan untuk memberikan pengalaman belajar yang nyaman bagi pengguna baru.
+                    </article>
+                    <br>
+                    <article>
+                        Peran: UI/UX Designer<br/>
+                        Tools: Figma, Adobe XD<br/>
+                        Pencapaian: Menghasilkan desain yang diterima oleh startup lokal untuk pengembangan lebih lanjut.
+                    </article>
+                </div>
+            </div>
+            <div>
+                <h1>Keahlian Teknis</h1>
+                <div>
+                    <article>
+                        Pengembangan Web: HTML, CSS, JavaScript, React, Node.js<br/>
+                        Desain UI/UX: Figma, Adobe XD, Sketch<br/>
+                        Database: MySQL, MongoDB<br/>
+                        Version Control: Git, GitHub<br/>
+                        Alat Pendukung: Postman, Docker
+                    </article>
+                </div>
+            </div>
+            <div>
+                <h1>Kontak</h1>
+                <div>
+                    <article>
+                        Email: [chrcyber08@gmail.com]<br/>
+                        LinkedIn: [christivan]]<br/>
+                        GitHub: [christivan00]
+                    </article>
+                </div>
+            </div>
+
 
             
         </section>
@@ -121,8 +195,31 @@
         <!-- Bagian MESSAGE US -->
         <section>
             <header id="section-message-us">
-                <h1 class="color-teks">MESSAGE US</h1>
+                <h1 class="color-teks-u">MESSAGE US</h1>
             </header>
+            <div class="container">
+                <form id="messageForm">
+                    <label for="name">NAMA:</label>
+                    <input type="text" id="name" name="name" placeholder="Masukkan nama Anda"><br><br>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Masukkan email Anda"><br><br>
+        
+                    <label for="gender">Jenis Kelamin:</label><br/>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Laki-laki</label><br/>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Perempuan</label><br/><br/>
+        
+                    <label for="message">Pesan:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Tulis pesan Anda di sini..."></textarea><br><br/>
+        
+                    <input type="submit" value="KIRIM">
+                </form>
+        
+                <div id="output" class="output-box"></div>
+            </div>
+        
         </section>
         <hr/>
     </main>
